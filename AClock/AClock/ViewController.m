@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *redView = [[UIView alloc] init];
+    redView.frame = CGRectMake(100, 100, 100, 100);
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
